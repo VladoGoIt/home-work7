@@ -5,8 +5,18 @@ package player;
  */
 public abstract class PlayListPlayer extends Player {
 
+    protected String [] songList = {"song1", "song2", "song3"};
+
+
     public PlayListPlayer(int price) {
         super(price);
     }
-    public abstract void playAllSongs();
+    public void playAllSongs() {
+        for (String song : songList) {
+            System.out.println("Playing: " + song);
+        }
+    }
+    public void playSong() {
+        System.out.println("Playing: " + songList[0]);
+    }
 }

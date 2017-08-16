@@ -4,7 +4,6 @@ package player;
  * Created by Vlado on 15.08.2017.
  */
 public class Player1 extends OneSongPlayer {
-
     public Player1(int price) {
         super(price);
     }
@@ -12,6 +11,7 @@ public class Player1 extends OneSongPlayer {
     @Override
     public void playSong() {
         System.out.println("Playing: " + songName );
+        getPRICE();
     }
 
 
