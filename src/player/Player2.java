@@ -10,6 +10,6 @@ public class Player2 extends OneSongPlayer {
 
     @Override
     public void playSong() {
-
+        System.out.println("error" );
     }
 }

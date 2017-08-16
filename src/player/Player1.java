@@ -11,6 +11,8 @@ public class Player1 extends OneSongPlayer {
 
     @Override
     public void playSong() {
-
+        System.out.println("Playing: " + songName );
     }
+
+
 }
